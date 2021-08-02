@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         let capitalizedWeekday = weekday.capitalized
         
         resultLabel.text = capitalizedWeekday
+        
+        let debugText = 111
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
